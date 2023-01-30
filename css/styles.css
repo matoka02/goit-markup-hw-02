@@ -6,6 +6,7 @@
     --primery-text-color-teme-dark:#FFFFFF;
     --secondary-text-color-teme-dark:#757575;
     --accent-color: #2196F3;
+    --background-color-dark-teme: #2F303A;
 }
 
 .body{
@@ -20,6 +21,9 @@
     text-decoration: none;
 }
 
+.accent{
+    color: var(--accent-color);
+}
 
 /*====Start Header====*/
 
@@ -31,10 +35,6 @@
     vertical-align: top;
     letter-spacing: 3%;
     color: var(--primery-text-color-teme-light);   
-}
-
-.logo-link-color{
-    color: var(--accent-color);
 }
 
 .nav-list-link{
@@ -49,7 +49,7 @@
 
 .nav-list-link:hover, 
 .nav-list-link:focus{
-    color: var(--accent-color);;
+    color: var(--accent-color);
 }
 
 .contact-mail, 
@@ -73,6 +73,10 @@
 /*====End Header====*/
 
 /*====Start Hero====*/
+
+.hero{
+    background-color: var(--background-color-dark-teme);
+}
 
 .modal-button{
     font-family: inherit;
@@ -98,7 +102,7 @@
     line-height: 1.36;
     vertical-align: top;
     letter-spacing: 6%;
-    /* color: var(--primery-text-color-teme-dark);  */
+    color: var(--primery-text-color-teme-dark); 
 }
 
 /*====End Hero====*/
@@ -134,6 +138,7 @@
     vertical-align: top;
     letter-spacing: 3%;
     color: var(--secondary-text-color-teme-light);
+    background-color: #F5F4FA;
 }
 
 .about-team-name{
@@ -143,6 +148,7 @@
     vertical-align: top;
     letter-spacing: 3%;
     color: var(--secondary-text-color-teme-light);
+    background-color:  #F5F4FA;
 }
 
 
@@ -153,11 +159,16 @@
     vertical-align: Top;
     letter-spacing: 3%;
     color: var(--secondary-text-color-teme-dark);
+    background-color:  #F5F4FA;
 }
 
 /*====End Team====*/
 
 /*====Start Footer====*/
+
+.page-footer{
+    background-color: var(--background-color-dark-teme);
+}
 
 .contact-address{
     font-style: 500;
@@ -165,7 +176,7 @@
     line-height: 1.71;
     vertical-align: Top;
     letter-spacing: 3%;
-    /* color: var(--primery-text-color-teme-dark); */
+    color: var(--primery-text-color-teme-dark);
 }
 
 .contacts{
@@ -179,14 +190,13 @@
 
 /*====End Footer====*/
 
-/*====Start Project filter====*/
+/*====Start Project====*/
 
 .project-filter-button{
     font-family: inherit;
     font-style: 500;
     font-size: 16px;
     line-height: 1.63;
-
     letter-spacing: 6%;
     color: var(--primery-text-color-teme-light);
     text-transform: uppercase;
@@ -199,10 +209,6 @@
     background-color: var(--accent-color);
     color: var(--primery-text-color-teme-dark);
 }
-
-/*====End Project filter====*/
-
-/*====Start Project====*/
 
 .project-item{
     font-style: 500;
