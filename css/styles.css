@@ -6,11 +6,12 @@
     --primery-text-color-teme-dark:#FFFFFF;
     --secondary-text-color-teme-dark:#757575;
     --accent-color: #2196F3;
-    --background-color-dark-teme: #2F303A;
+    --background-color-teme-dark: #2F303A;
+    --background-color-teme-light: #F5F4FA;
 }
 
-.body{
-    font-family: Roboto, sans-serif;
+body{
+    font-family: var(--primery-font-family);
 }
 
 .list{
@@ -29,22 +30,19 @@
 
 .logo-link{
     font-family: var(--secondary-font-family);
-    font-style: 900;
-    font-size: 28px;
+    font-weight: 500;
+    font-size: 26px;
     line-height: 1.19;
-    vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color-teme-light);   
 }
 
 .nav-list-link{
-    font-style: 500;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
-    vertical-align: top;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color-teme-light);
-    ;
 }
 
 .nav-list-link:hover, 
@@ -54,11 +52,10 @@
 
 .contact-mail, 
 .contact-phone {
-    font-style: 500;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
-    vertical-align: top;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color-teme-dark);
 }
 
@@ -75,33 +72,26 @@
 /*====Start Hero====*/
 
 .hero{
-    background-color: var(--background-color-dark-teme);
+    background-color: var(--background-color-teme-dark);
 }
 
 .modal-button{
     font-family: inherit;
-    font-style: 700;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 6%;
-    color: var(--primery-text-color-teme-light);
-    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color-teme-dark);
+    background-color: var(--accent-color);
+    text-transform: none;
     cursor: pointer;
 }
 
-.modal-button:hover, 
-.modal-buttone:focus{
-    background-color: var(--accent-color);
-    color: var(--primery-text-color-teme-dark);
-}
-
 .main-title{
-    font-style: black;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    vertical-align: top;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     color: var(--primery-text-color-teme-dark); 
 }
 
@@ -110,20 +100,18 @@
 /*====Start Feature====*/
 
 .feature-item{
-    font-style: 900;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-light);
 }
 
 .feature-list-item{
-    font-style: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-dark);
 }
 
@@ -131,35 +119,32 @@
 
 /*====Start Team====*/
 
+.our-team{
+    background-color: var(--background-color-teme-light);
+}
+
 .subtitle{
-    font-style: 400;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
-    vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-light);
-    background-color: #F5F4FA;
 }
 
 .about-team-name{
-    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    vertical-align: top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-light);
-    background-color:  #F5F4FA;
 }
 
-
 .about-team-item{
-    font-style: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-dark);
-    background-color:  #F5F4FA;
 }
 
 /*====End Team====*/
@@ -167,24 +152,28 @@
 /*====Start Footer====*/
 
 .page-footer{
-    background-color: var(--background-color-dark-teme);
+    background-color: var(--background-color-teme-dark);
+
+}
+
+.page-footer>.logo-link{
+    color: var(--primery-text-color-teme-dark);
 }
 
 .contact-address{
-    font-style: 500;
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color-teme-dark);
 }
 
 .contacts{
-    font-style: 400;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-dark); 
 }
 
@@ -194,12 +183,13 @@
 
 .project-filter-button{
     font-family: inherit;
-    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    letter-spacing: 6%;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color-teme-light);
-    text-transform: uppercase;
+    background-color: var(--background-color-teme-light);
+    text-transform: none;
     cursor: pointer;
 }
 
@@ -211,20 +201,18 @@
 }
 
 .project-item{
-    font-style: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
-    vertical-align: Top;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     color: var(--secondary-text-color-teme-light); 
 }
 
 .project-list-item{
-    font-style: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    vertical-align: Top;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color-teme-dark); 
 }
 
