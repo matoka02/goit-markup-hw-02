@@ -1,0 +1,220 @@
+:root{
+    --primery-font-family: Roboto, sans-serif;
+    --secondary-font-family: Raleway, sans-serif;
+    --primery-text-color-teme-light:#000000;
+    --secondary-text-color-teme-light:#212121;
+    --primery-text-color-teme-dark:#FFFFFF;
+    --secondary-text-color-teme-dark:#757575;
+    --accent-color: #2196F3;
+    --background-color-teme-dark: #2F303A;
+    --background-color-teme-light: #F5F4FA;
+}
+
+body{
+    font-family: var(--primery-font-family);
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.accent{
+    color: var(--accent-color);
+}
+
+/*====Start Header====*/
+
+.logo-link{
+    font-family: var(--secondary-font-family);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-teme-light);   
+}
+
+.nav-list-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-teme-light);
+}
+
+.nav-list-link:hover, 
+.nav-list-link:focus{
+    color: var(--accent-color);
+}
+
+.contact-mail, 
+.contact-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-teme-dark);
+}
+
+.contact-mail:hover, 
+.contact-mail:focus, 
+.contact-phone:hover, 
+.contact-phone:focus{
+    color: var(--accent-color);
+}
+
+
+/*====End Header====*/
+
+/*====Start Hero====*/
+
+.hero{
+    background-color: var(--background-color-teme-dark);
+}
+
+.modal-button{
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color-teme-dark);
+    background-color: var(--accent-color);
+    text-transform: none;
+    cursor: pointer;
+}
+
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color-teme-dark); 
+}
+
+/*====End Hero====*/
+
+/*====Start Feature====*/
+
+.feature-item{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-light);
+}
+
+.feature-list-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-dark);
+}
+
+/*====End Feature====*/
+
+/*====Start Team====*/
+
+.our-team{
+    background-color: var(--background-color-teme-light);
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-light);
+}
+
+.about-team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-light);
+}
+
+.about-team-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-dark);
+}
+
+/*====End Team====*/
+
+/*====Start Footer====*/
+
+.page-footer{
+    background-color: var(--background-color-teme-dark);
+
+}
+
+.page-footer>.logo-link{
+    color: var(--primery-text-color-teme-dark);
+}
+
+.contact-address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-teme-dark);
+}
+
+.contacts{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-teme-dark); 
+    opacity: 0.6;
+}
+
+/*====End Footer====*/
+
+/*====Start Project====*/
+
+.project-filter-button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color-teme-light);
+    background-color: var(--background-color-teme-light);
+    text-transform: none;
+    cursor: pointer;
+}
+
+
+.project-filter-button:hover, 
+.project-filter-button:focus{
+    background-color: var(--accent-color);
+    color: var(--primery-text-color-teme-dark);
+}
+
+.project-item{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color-teme-light); 
+}
+
+.project-list-item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color-teme-dark); 
+}
+
+/*====End Project====*/
